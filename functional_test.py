@@ -14,7 +14,7 @@ class NewVisitorTest(unittest.TestCase): #1 - unittest.TestCase를 상속해서 
         # browser = webdriver.Firefox()
         # # Edith는 멋진 작업 목록 온라인 앱이 나왔다는 소식을 듣고
         # 해당 웹 사이트를 확인하러 간다.
-        self.browser.get('http://localhost:8000')
+        self.browser.get('http://127.0.0.1:8000')
 
         # 웹 페이지 타이틀과헤더 'To-Do'를 표시하고 있다.
         self.assertIn('To-Do',self.browser.title) #5 테스트 assertion method 
